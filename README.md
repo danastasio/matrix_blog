@@ -10,13 +10,15 @@ The blog itself is a *space* on a Matrix homeserver. I am using Synapse, but any
 
 Posts can be published by making the room public, and can be unpublished by making the room private.
 
+The blog is styled using TailwindCSS CDN.
+
 ## TODO
 
-[] It looks fucking horrible.
-[] You can't actually view the body of the posts right now (though the script does support viewing them right now).
-[] Comments in the room could be comments on the post?
-[] Decide if it would make sense to have a web GUI to create a new post.
-[] Structure the project in a way that makes more sense.
-[] Create a composer package so it can be easily integrated into other projects. 
+- [] It looks fucking horrible.
+- [] You can't actually view the body of the posts right now (though the script does support viewing them right now).
+- [] Comments in the room could be comments on the post?
+- [] Decide if it would make sense to have a web GUI to create a new post.
+- [] Structure the project in a way that makes more sense.
+- [] Create a composer package so it can be easily integrated into other projects. 
 
 
