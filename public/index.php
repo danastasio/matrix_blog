@@ -1,4 +1,4 @@
-<!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 <?php
 include_once('../secrets.php');
 class Server 
@@ -101,7 +101,7 @@ function list_rooms(string $access_token): string
 	}
 
 	echo '<div><h1 class="font-bold text-lg w-full text-center">Blog Posts:</div>' . "\n";
-	echo '<div class="p-5 w-full text-center">';
+	echo '<div class="flex-none mx-auto p-5 max-w-6xl">';
 	foreach ($rooms as $room) {
 		$room_details = get_room_details($access_token, $room);
 		$prev_batch = get_prev_batch($access_token, $room_details->room_id);
